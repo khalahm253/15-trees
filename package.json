@@ -1,0 +1,30 @@
+{
+  "name": "15-trees",
+  "version": "1.0.0",
+  "description": "![cf](http://i.imgur.com/7v5ASc8.png) Lab 15- Binary Tree Data Structure ==== ## To Submit this Assignment * Read this document entirely and estimate how long this assignment will take. * Work in a fork of this repository * Work in a branch on your fork * Protect your repository's `master` branch by activating `continuous-integration/travis-ci` status checks * Create a pull request from your `lab` + `<your name>` branch to your `master` branch * Open a pull request to this repository * Submit on canvas a question and observation,your original estimate, how long you spent, and a link to your pull request",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "start": "node index.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalahm253/15-trees.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalahm253/15-trees/issues"
+  },
+  "homepage": "https://github.com/khalahm253/15-trees#readme",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^8.2.3",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "jest": "^23.1.0"
+  }
+}
